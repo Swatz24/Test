@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logoImg {
+  border: 1px transparent;
+  box-shadow: 0px 0px 1px 1px #da5552;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.toggle {
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+
+  font-weight: bold;
+}
+
+.links {
+  text-decoration: none;
+  color: gray !important;
+}
+
+.links:hover {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.forYou {
+  border-bottom: 5px solid #da5552;
+}
+
+.forYou.follow.inactive {
+  border-bottom: 5px solid transparent;
+}
+.follow {
+  border-bottom: 5px solid #da5552;
+}
+.follow.inactive {
+  border-bottom: 5px solid transparent;
+}
+
+.centerPanel {
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  height: 100%;
+}
+.side-panel {
+  border-right: 0.5px solid lightgray;
+  height: 100vh;
+}
+.rightPanel {
+  border-left: 0.5px solid lightgray;
+  height: 100vh;
+}
+.col-2 h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.col-2 a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.col-2 a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+@media screen and (max-width: 500px) {
+  .rightPanel,
+  .logoImg {
+    position: absolute;
+    display: none;
+  }
+}
+
+.card .card-desc {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #aeadad;
+  font-size: 1em;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profilepic {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: center;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tweet {
+  border: none;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.tweetbutton {
+  color: white;
+  background-color: #da5552;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  border-radius: 25px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.tweet {
+  margin-top: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+
+.tweet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.text-boxes {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .message-button {
+  align-self: center;
+} */
+
+.author-date-id,
+.tags {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.keywords {
+  margin-left: 0.5rem;
+  padding: 0.1rem 1rem;
+  border: 0.5px solid #da5552;
+
+  color: black;
+  border-radius: 0.5rem;
+}
+
+.box {
+  padding-left: 1rem;
+  box-shadow: 0px 0px 2px 1px rgba(67, 66, 66, 0.1);
+  background-color: rgb(249, 241, 241);
+  border-radius: 0.5rem;
+}
+
+.edit-section {
+  display: none;
+}
